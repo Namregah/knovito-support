@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official support page for Knovito." />
+  <title>Knovito Support</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f0e13;
+      --surface: #1d1a22;
+      --surface-2: #26212d;
+      --text: #f5f1f8;
+      --muted: #b9b0bf;
+      --purple: #7c3df0;
+      --green: #59cc4a;
+      --orange: #ffa51f;
+      --border: #393140;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(124, 61, 240, 0.12), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 72px 0 44px;
+      text-align: center;
+    }
+
+    .brand {
+      font-size: clamp(2.2rem, 8vw, 4rem);
+      margin: 0;
+      letter-spacing: 0.02em;
+    }
+
+    .pronunciation {
+      margin: 4px 0 16px;
+      color: var(--muted);
+      letter-spacing: 0.12em;
+      font-weight: 600;
+    }
+
+    .tagline {
+      margin: 0 auto;
+      max-width: 640px;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+
+    .accent-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 24px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .purple { background: var(--purple); }
+    .green { background: var(--green); }
+    .orange { background: var(--orange); }
+
+    main {
+      display: grid;
+      gap: 20px;
+      padding-bottom: 56px;
+    }
+
+    .card {
+      background: rgba(29, 26, 34, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.18);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.45rem;
+    }
+
+    p { margin: 0 0 14px; }
+
+    p:last-child { margin-bottom: 0; }
+
+    .muted { color: var(--muted); }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 22px;
+    }
+
+    li { margin: 8px 0; }
+
+    .contact-box {
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 16px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+    }
+
+    .contact-box strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .placeholder {
+      color: #ffd38a;
+      font-weight: 700;
+      word-break: break-word;
+    }
+
+    .note {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      padding: 24px 0 36px;
+      font-size: 0.92rem;
+    }
+
+    a {
+      color: #cbb2ff;
+    }
+
+    @media (max-width: 600px) {
+      header { padding-top: 52px; }
+      .card { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 class="brand">Knovito</h1>
+      <div class="pronunciation">No · Veet · Oh</div>
+      <p class="tagline">
+        Support for Knovito — a personal balance and reflection app built around Mind, Body, and Heart.
+      </p>
+      <div class="accent-row" aria-hidden="true">
+        <span class="dot purple"></span>
+        <span class="dot green"></span>
+        <span class="dot orange"></span>
+      </div>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Need Help?</h2>
+        <p class="muted">
+          If you are having trouble with Knovito, please contact support and include a short description of the issue.
+        </p>
+        <div class="contact-box">
+          <strong>Support email</strong>
+          <a href="mailto:WispHollow@gmail.com">WispHollow@gmail.com</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Common Help</h2>
+        <ul>
+          <li><strong>Lifetime Access:</strong> Knovito uses one simple one-time purchase. There is no monthly or yearly subscription and no recurring charge.</li>
+          <li><strong>Restore a purchase:</strong> If you reinstall Knovito or move to another Apple device using the same App Store account, use Restore Purchases from Access &amp; Purchase.</li>
+          <li><strong>Notifications:</strong> Check both Knovito's reminder settings and your iPhone notification settings if reminders are not appearing.</li>
+          <li><strong>App data:</strong> Use Knovito's backup/export tools before resetting or moving important local data.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Privacy</h2>
+        <p>
+          Your journal entries, intentions, and personal reflections are designed to remain private within Knovito.
+          My Group mood sharing is optional and limited to the information you choose to share.
+        </p>
+        <p class="muted">
+          Knovito does not require access to your photo library for normal use.
+        </p>
+        <p>
+          <a href="privacy.html">Read the Knovito Privacy Policy</a>
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>About Knovito</h2>
+        <p>
+          Knovito helps you reflect on balance across Mind, Body, and Heart through intentions, mood and sleep tracking,
+          journaling, personal insights, and optional mood sharing.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      © 2026 Chuck Hagerman · Knovito Support
+    </footer>
+  </div>
+</body>
+</html>
